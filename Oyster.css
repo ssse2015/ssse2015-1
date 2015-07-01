@@ -1,0 +1,37 @@
+body {
+
+}
+
+#oysterF {
+	position: absolute;
+	width: 50px;
+	height: 0%;
+}
+
+#oysters {
+	width: 100px;
+	height: 100px;
+}
+
+#Square {
+	position: absolute;
+	left:        50%;        /* Start with top left in the center */
+    top:         50%;
+	width: 100px;
+	height: 100px;
+/*	margin-left: -50px;     /* Shift over half the width */
+/*    margin-top:  -150px;      /* -150 = above center, 50 = below center */
+	background: red; 
+ 
+}
+
+#FirstSquare {
+ /*   position:    absolute;
+ /*   left:        50%;        /* Start with top left in the center */
+ /*   top:         50%;	*/
+    width:       100px;      /* The fixed width... */
+    height:      100px;      /* ...and height */
+ /*   margin-left: -50px;     /* Shift over half the width */
+ /*   margin-top:  -50px;      /* Shift up half the height */
+	background: green;
+}
