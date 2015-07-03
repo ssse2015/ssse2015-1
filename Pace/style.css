@@ -4,23 +4,23 @@ body{
 	background: url("images/OystrBackgroundClear.png");
 	/* overflow: hidden; */
 }
-canvas#canvas
-{
+canvas{
    border: 1px dotted #f06;
-
-   margin-left: 100px;
+	
+   margin-left: auto;
+   margin-right: auto;
 }
-
-div#output
-{
-   width: 250px;
-   height: 150px;
-
-   float: left;
-
-   overflow-x: hidden;
-   overflow-y: auto;
-
-   background-color: #000;
-   color: #fff;
+#reference{
+	display: none;
+}
+#dirtyReference{
+	display: none;
+}
+#POW{
+	background: black;
+	width: 128px;
+	height: 563px;
+	position: absolute;
+	top: 0px;
+	left: 514px;
 }
