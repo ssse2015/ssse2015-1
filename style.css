@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("images/OystrBackgroundClear.png");
+	/* overflow: hidden; */
+}
+canvas{
+   border: 1px dotted #f06;
+	
+   margin-left: auto;
+   margin-right: auto;
+}
+#reference{
+	display: none;
+}
+#dirtyReference{
+	display: none;
+}
+#POW{
+	background: black;
+	width: 128px;
+	height: 563px;
+	position: absolute;
+	top: 0px;
+	left: 514px;
+}
